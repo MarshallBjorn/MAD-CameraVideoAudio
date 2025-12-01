@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
-import com.example.pumsprawozdanie.databinding.ActivityMainBinding // IMPORTANT IMPORT
+import com.example.pumsprawozdanie.databinding.ActivityMainBinding
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
@@ -21,7 +21,7 @@ import java.util.Date
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding // ViewBinding
+    private lateinit var binding: ActivityMainBinding
     private var currentPhotoUri: Uri? = null
     private var currentVideoUri: Uri? = null
     private var mediaRecorder: MediaRecorder? = null
